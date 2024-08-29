@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+.body{
+    background-image:url(https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/content_entry5b155bed5711a8176e9f9783/5c4fbe2246025317508def41/files/nepal-everest-base-camp-everest-travel-photo-20190128094442660-main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{
+    position: relative;
+    z-index: 1;
+    margin-left: 20%;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    line-height: 90px;
+}
+h5{
+    line-height: 90px;
+    color: blue;
+    font-size: 40px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all;
+    transition-timing-function: ease-in;
+    /* transition-duration: 1s; */
+    transition-delay: 0.5s;
+}
+a:hover{
+    padding: 2px;
+    background-color: white;
+}
+.div1{
+    margin-left: 20%;
+    width: 800px;
+}
+h1{
+    text-transform: capitalize;
+    width: 400px;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+p{
+    color: white;
+    width: 400px;
+}
+#btn{
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+#btn:hover{
+    padding: 20px;
+}
+.div2{
+    width: 800px;
+    margin-left: 20%;
+}
+.main{
+    background-color: white;
+}
+h2{
+    margin-top: 30px;
+    width: 400px;
+    color: black;
+}
+.div3{
+    margin-top: 30px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.div4{
+    padding: 40px;
+    margin: 10px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    transition-duration: 2s;
+}
+img{
+    margin-top: 20px;
+}
+.div4:hover{
+    transform: scale(1.1,1.1);
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+footer{
+    background-color:green;
+}
+.foot{
+    padding: 40px;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+}
